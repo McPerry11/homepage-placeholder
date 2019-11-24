@@ -17,8 +17,12 @@ function setup() {
 	createCanvas(width, height);
 	x = random(width - logo.width);
 	y = random(height - logo.height);
-	xspeed = 4;
-	yspeed = 4;
+	if (width <= 500 || height <= 500) {
+		xspeed = yspeed = 2;
+	} else {
+		xspeed = yspeed = 4;
+	}
+	
 }
 
 function draw() {
