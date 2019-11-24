@@ -10,7 +10,7 @@ let width = window.screen.availWidth;
 let height = window.innerHeight;
 
 function preload() {
-	logo = loadImage("http://localhost/homepage/rnd_logo.png");
+	logo = loadImage("https://ccssrnd.tech/rnd_logo.png");
 }
 
 function setup() {
@@ -22,7 +22,6 @@ function setup() {
 	} else {
 		xspeed = yspeed = 4;
 	}
-	
 }
 
 function draw() {
